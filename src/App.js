@@ -1,7 +1,8 @@
 import React from 'react'
+import { Switch, Route } from 'react-router-dom'
 
 export default () => (
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <Switch>
+    <Route path="/" render={() => <h1>Home</h1>} />
+  </Switch>
 )
