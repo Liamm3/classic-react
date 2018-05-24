@@ -36,7 +36,6 @@ export default () => (
       <NavItem to="/">Home</NavItem>
       <NavItem to="/news">News</NavItem>
       <NavItem to="/todos">TodoApp</NavItem>
-      <NavItem to="/products">Products</NavItem>
     </NavItems>
   </Nav>
 )
