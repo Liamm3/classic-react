@@ -3,9 +3,6 @@ import styled from 'styled-components'
 
 const Todo = styled.li`
   text-decoration: ${props => (props.completed ? 'line-through' : '')};
-  :hover {
-    background: black;
-  }
 `
 
 export default class extends Component {
